@@ -4,9 +4,7 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 
 ## Barebone Login 12-26-2023
 
-1. Locate your XAMPP's directory.
-
-### Commonly, its directory is C:/xampp.
+1. Locate your XAMPP's directory. Commonly, its directory is C:/xampp.
 
 2. Find and go to *htdocs* folder.
 
@@ -14,7 +12,7 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 
 4. Paste it inside the *htdocs* folder.
 
-### We are almost done!
+#### We are almost done!
 
 5. Setup your XAMPP, and start Apache and MySQL.
 
@@ -26,7 +24,7 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 
 9. Inside 'iskommunity' folder in htdocs, find 'sql' folder. There is *student.sql* and *organization.sql* -- download and import them each in the 'iskommunity' database.
 
-### FINISH!
+#### FINISH!
 
 10. Now,  you can open http://localhost/iskommunity.
 
