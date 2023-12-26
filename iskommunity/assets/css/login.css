@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+header a, header p{
+    font-size: 1.3rem;
+}
+
+form, .new{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 1.2em auto;
+    padding: 1.2em;
+}
+
+.errormsg{
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.254);
+    width: 350px;
+    margin: 1.2em auto;
+    padding: 1.2em;
+}
+
+form label{
+    margin: 0.7em 0;
+    font-size: 1rem;
+}
+
+form button{
+    margin: 2em 0;
+    height: 30px;
+    font-size: 1rem;
+}
+
+form input{
+    height: 30px;
+    font-size: 1rem;
+}
+
+.new{
+    font-size: 1rem;
+    text-align: center;
+}
+
+header a,.new a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 4rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1rem
+}
+
+
+@media (width <= 320px){
+    form, .new{   
+        width: 300px;
+    }
+
+    .new p{
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
