@@ -2,31 +2,31 @@
 
 Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalang sa gc if may maencounter na issue.
 
-### Barebone Login 12-26-2023
+## Barebone Login 12-26-2023
 
 1. Locate your XAMPP's directory.
 
---> Commonly, its directory is C:/xampp.
+### Commonly, its directory is C:/xampp.
 
-2. Find and go to 'htdocs' folder.
+2. Find and go to *htdocs* folder.
 
-3. Download the 'iskommunity' folder.
+3. Download the *iskommunity* folder.
 
-4. Paste it inside the 'htdocs' folder.
+4. Paste it inside the *htdocs* folder.
 
---> We are almost done!
+### We are almost done!
 
 5. Setup your XAMPP, and start Apache and MySQL.
 
 6. Go to phpmyadmin by using http://localhost/phpymyadmin in your web browser.
 
-7. Create a database named 'iskommunity'.
+7. Create a database named *iskommunity*.
 
-8. Once done, inside 'iskommunity' database, look for 'Import' in the Options bar/ Ribbon on top (It is in the row together with 'Structure').
+8. Once done, inside *iskommunity* database, look for 'Import' in the Options bar/ Ribbon on top (It is in the row together with 'Structure').
 
-9. Inside 'iskommunity' folder in htdocs, find 'sql' folder. There is student.sql and organization.sql -- download and import them each in the 'iskommunity' database.
+9. Inside 'iskommunity' folder in htdocs, find 'sql' folder. There is *student.sql* and *organization.sql* -- download and import them each in the 'iskommunity' database.
 
---> FINISH!
+### FINISH!
 
 10. Now,  you can open http://localhost/iskommunity.
 
