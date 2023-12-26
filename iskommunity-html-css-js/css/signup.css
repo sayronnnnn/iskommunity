@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
+
+header a{
+    text-decoration: none;
+}
+
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 50px auto 0;
+    padding: 40px;
+}
+
+.intro{
+    margin: 0 0 30px;
+}
+
+.intro p{
+    font-weight: bold;
+}
+
+.errormsg{
+    border: 1px solid rgb(255, 0, 0);
+    background: rgba(255, 0, 0, 0.254);
+    border-radius: 10px;
+    margin-top: 1em;
+    padding: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.errormsg ul li{
+    font-weight: 100;
+}
+
+form label{
+    margin-bottom: 8px;
+}
+
+form input{
+    margin-bottom: 20px;
+    height: 30px;;
+}
+
+form button{
+    margin-top: 20px;
+    height: 30px;
+    font-size: 1rem;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 1rem
+}
+
+@media (width <= 1024px){
+    header{
+        padding: 20px 90px;
+    }
+
+    form{
+        width: 70%;
+    }
+}
+
+@media (width <= 768px){
+    header{
+        padding: 20px 50px;
+    }
+
+    header p, header a{
+        font-size: 1.1rem;
+        
+    }
+    
+    form{
+        width: 80%;
+        padding: clamp(6%,5%,5%);
+    }
+}
+
+@media (width <=550px){
+    header{
+        padding: 20px 30px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (width <=320px){
+    form{
+        width: 90%;
+        margin: 50px auto;
+        font-size: 0.9rem
+    }
+
+    form input, form button{
+        height: 25px;
+    }
+}
+

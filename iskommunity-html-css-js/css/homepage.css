@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+}
+
+.nav{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em;
+}
+
+.nav a, .nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.nav ul{
+    border: 1px solid rgb(39, 108, 0);
+    display: flex;
+    flex-wrap: wrap; /* not sure for this one*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 3em;
+}
+
+.msg{
+    border: 1px solid seagreen;
+    background: rgba(0, 255, 72, 0.254);
+    padding: 1.3em 5em;
+    margin: 1em 0;
+}
+
+.welcome{
+    position: absolute;
+    bottom: 0;
+    padding: 0 5em 8em;
+}
+
+.welcome-picture{
+    width: 10em;
+    height: 10em;
+    margin-bottom: 3em;
+    border: 2px solid black;
+}
+
+.welcome h1{
+    font-size: 2.6rem;
+}
+
+.welcome p{
+    font-size: 1.2rem;
+}
