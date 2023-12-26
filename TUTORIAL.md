@@ -11,12 +11,14 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 3. Download the *iskommunity* folder.
 
 4. Paste it inside the *htdocs* folder.
+   
 
 #### We are almost done!
 
+
 5. Setup your XAMPP, and start Apache and MySQL.
 
-6. Go to phpmyadmin by using http://localhost/phpymyadmin in your web browser.
+6. Go to phpmyadmin by using http://localhost/phpymyadmin/ in your web browser.
 
 7. Create a database named *iskommunity*.
 
@@ -24,9 +26,11 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 
 9. Inside 'iskommunity' folder in htdocs, find 'sql' folder. There is *student.sql* and *organization.sql* -- download and import them each in the 'iskommunity' database.
 
+
 #### FINISH!
 
-10. Now,  you can open http://localhost/iskommunity.
+
+10. Now,  you can open http://localhost/iskommunity/.
 
 ### [Account testing for org]
 If gusto niyong matry if pwedeng mag-login yung organization, I have added dummy TPG credentials sa organization.sql. May inserted values na rin yun. Yung username is puptpg and password is tpg1. Kapag naglog-in kayo, makikita niyo dapat yung username na puptpg sa header. 
