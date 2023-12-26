@@ -4,7 +4,7 @@ Tutorial kung paano ninyo mattry on your end yung iskommunity. Pa-heads up nalan
 
 ## Barebone Login 12-26-2023
 
-1. Locate your XAMPP's directory. Commonly, its directory is C:/xampp.
+1. Locate your XAMPP's directory. Commonly, its directory is C:\xampp.
 
 2. Find and go to *htdocs* folder.
 
