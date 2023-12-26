@@ -85,27 +85,6 @@ function selectOneUsingOr($table, $conditions){
     return $record;
 }
 
-function selectUnionStudOrg($table1, $table2, $conditions){
-    global $conn;
-    $sql = "SELECT stud_Username AS Username, stud_Webmail AS Email, stud_Password AS Password FROM $table1 
-            UNION 
-            SELECT org_Username AS Username, org_Email AS Email, org_Password AS Password FROM $table2";
-    $i = 0;
-    foreach($conditions as $key => $value){
-        if($i === 0){
-            $sql = $sql. " WHERE $key=?";
-        }
-        else{
-            $sql = $sql. " OR $key=?";
-        }
-        $i++;
-    }
-    $sql = $sql . " LIMIT 1";
-    $stmt = executeQuery($sql, $conditions);
-    $record = $stmt->get_result()->fetch_assoc();
-    return $record;
-}
-
 function create($table, $data){
     global $conn;
     $sql = "INSERT INTO $table SET ";
